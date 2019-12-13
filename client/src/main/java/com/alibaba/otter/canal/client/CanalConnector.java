@@ -1,5 +1,6 @@
 package com.alibaba.otter.canal.client;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import com.alibaba.otter.canal.protocol.Message;
@@ -149,5 +150,4 @@ public interface CanalConnector {
      * @throws CanalClientException
      */
     void rollback() throws CanalClientException;
-
 }
